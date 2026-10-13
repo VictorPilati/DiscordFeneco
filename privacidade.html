@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Política de Privacidade do bot Feneco para Discord.">
+<meta name="theme-color" content="#090b14">
+<title>Política de Privacidade — Feneco</title>
+<style>
+:root{color-scheme:dark;--bg:#090b14;--panel:#111526;--panel2:#151b30;--text:#f4f5ff;--muted:#a8aec7;--line:rgba(191,199,255,.14);--purple:#a78bfa;--blue:#60a5fa;--green:#86efac}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 15% 0%,rgba(124,58,237,.18),transparent 38%),radial-gradient(ellipse at 100% 15%,rgba(37,99,235,.13),transparent 32%),var(--bg);color:var(--text);font:16px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:#c4b5fd;text-decoration:none}a:hover{color:#fff}
+.wrap{width:min(1080px,calc(100% - 36px));margin:auto}
+header{padding:24px 0;border-bottom:1px solid var(--line);background:rgba(9,11,20,.72);backdrop-filter:blur(14px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--text);font-weight:800;letter-spacing:.2px}
+.logo{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,#8b5cf6,#3b82f6);box-shadow:0 8px 28px #6d28d933;font-size:21px}
+.links{display:flex;flex-wrap:wrap;gap:18px;font-size:14px;color:var(--muted)}
+main{padding:64px 0 76px}
+.hero{padding:clamp(28px,6vw,66px);border:1px solid var(--line);border-radius:28px;background:linear-gradient(135deg,rgba(167,139,250,.11),rgba(96,165,250,.05) 55%,rgba(17,21,38,.9));box-shadow:0 24px 80px rgba(0,0,0,.22)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(167,139,250,.28);background:rgba(167,139,250,.08);color:#ddd6fe;border-radius:999px;padding:6px 12px;font-size:12px;font-weight:750;letter-spacing:.09em;text-transform:uppercase}
+h1{font-size:clamp(36px,6vw,62px);line-height:1.08;letter-spacing:-.045em;margin:22px 0 18px}
+h1 span{background:linear-gradient(100deg,#c4b5fd,#93c5fd);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{max-width:680px;color:var(--muted);font-size:18px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid var(--line);border-radius:13px;padding:12px 17px;font-weight:700;color:var(--text);background:rgba(255,255,255,.04);transition:transform .18s,border-color .18s}
+.btn:hover{transform:translateY(-2px);border-color:rgba(196,181,253,.6)}
+.btn.primary{background:linear-gradient(110deg,#7c3aed,#4f46e5);border-color:transparent;box-shadow:0 10px 30px rgba(79,70,229,.24)}
+.section-title{margin:48px 0 18px;font-size:22px;letter-spacing:-.02em}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{display:block;padding:24px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(160deg,rgba(21,27,48,.92),rgba(15,18,32,.92));color:var(--text);transition:transform .18s,border-color .18s}
+.card:hover{transform:translateY(-3px);border-color:rgba(167,139,250,.5);color:var(--text)}
+.card-icon{width:44px;height:44px;display:grid;place-items:center;border-radius:14px;background:rgba(167,139,250,.13);font-size:21px;margin-bottom:17px}
+.card h2{font-size:19px;margin:0 0 8px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.arrow{display:block;color:#c4b5fd;margin-top:18px;font-weight:750;font-size:14px}
+.note{margin-top:20px;border:1px solid var(--line);border-radius:16px;padding:18px 20px;color:var(--muted);background:rgba(255,255,255,.025);font-size:14px}
+.doc-head{padding:35px 0 25px;border-bottom:1px solid var(--line);margin-bottom:28px}
+.doc-head h1{font-size:clamp(32px,5vw,48px);margin:14px 0}
+.updated{color:var(--muted);font-size:13px}
+.doc{max-width:820px;margin:0 auto;padding:clamp(22px,5vw,48px);border:1px solid var(--line);border-radius:24px;background:rgba(17,21,38,.82)}
+.doc h2{font-size:19px;margin:30px 0 8px;letter-spacing:-.01em}
+.doc h2:first-child{margin-top:0}
+.doc p,.doc li{color:#d1d5e8}
+.doc ul{padding-left:23px}
+.doc li{padding-left:4px;margin:7px 0}
+.callout{border-left:3px solid var(--purple);padding:12px 16px;background:rgba(167,139,250,.07);border-radius:0 12px 12px 0;color:#d8d5ee}
+footer{border-top:1px solid var(--line);padding:25px 0 36px;color:var(--muted);font-size:13px}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+@media(max-width:650px){.nav{align-items:flex-start;flex-direction:column}.links{gap:13px}main{padding:35px 0 50px}.cards{grid-template-columns:1fr}.hero{border-radius:22px}.doc{border-radius:18px}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap nav">
+<a class="brand" href="index.html"><span class="logo">狐</span><span>Feneco <small style="display:block;font-size:11px;color:var(--muted);font-weight:600;letter-spacing:.12em;text-transform:uppercase">Documentação oficial</small></span></a>
+<nav class="links" aria-label="Navegação principal"><a href="index.html">Início</a><a href="termos.html">Termos de Serviço</a><a href="privacidade.html">Privacidade</a></nav>
+</div></header>
+
+<main><div class="wrap">
+<div class="doc-head"><div class="eyebrow">Documento legal</div><h1>Política de Privacidade</h1><div class="updated">Feneco · Última atualização: 12 de outubro de 2026</div></div>
+<article class="doc">
+<h2>1. Introdução</h2>
+<p>Esta Política de Privacidade explica como o Feneco, um bot de comandos e utilidades para Discord, pode processar informações relacionadas aos usuários e aos servidores em que está instalado. O objetivo é tratar os dados de forma responsável, transparente e compatível com as funcionalidades oferecidas e com a legislação aplicável, incluindo a Lei Geral de Proteção de Dados Pessoais (LGPD), quando aplicável.</p>
+<h2>2. Informações que podem ser processadas</h2>
+<p>Dependendo das funcionalidades utilizadas e da implementação do Feneco, as informações processadas ou armazenadas podem incluir:</p>
+<ul><li><strong>Identificadores de usuários:</strong> identificadores do Discord necessários para reconhecer usuários e executar comandos.</li><li><strong>Informações de servidores:</strong> identificadores de servidores, canais ou outras informações necessárias às funcionalidades utilizadas.</li><li><strong>Mensagens e comandos:</strong> conteúdo de mensagens ou comandos, quando necessário para executar uma funcionalidade ou manter um registro relacionado a ela.</li><li><strong>Registros de atividade:</strong> informações sobre utilização, como eventos, execuções de comandos e erros, caso esses registros sejam implementados.</li><li><strong>Configurações:</strong> preferências ou parâmetros definidos para o funcionamento do bot, quando aplicável.</li></ul>
+<p class="callout">Esta lista descreve categorias possíveis, não uma afirmação de que todas essas informações sejam coletadas ou armazenadas em todas as situações. O tratamento efetivo depende dos recursos implementados e utilizados.</p>
+<h2>3. Como as informações são utilizadas</h2>
+<p>Conforme necessário e de acordo com as funcionalidades implementadas, as informações poderão ser utilizadas para executar comandos solicitados, manter configurações, diagnosticar falhas, investigar problemas técnicos, proteger o serviço contra abuso e cumprir obrigações legais ou solicitações legalmente válidas. As informações não devem ser utilizadas para finalidades incompatíveis com o funcionamento informado do Feneco.</p>
+<h2>4. Compartilhamento de informações</h2>
+<p>O responsável pelo Feneco não deve compartilhar dados pessoais com terceiros, exceto quando houver base legal aplicável e isso for necessário ou permitido, por exemplo, para operar infraestrutura técnica, cumprir obrigações legais ou atender a uma solicitação do usuário, quando aplicável. Fornecedores efetivamente utilizados e suas funções devem ser identificados nesta política quando pertinente. O Discord também processa informações conforme seus próprios termos e sua política de privacidade.</p>
+<h2>5. Armazenamento e período de retenção</h2>
+<p>O período de armazenamento depende do tipo de informação, da finalidade do tratamento e da implementação do Feneco. As informações devem ser mantidas somente pelo período necessário para cumprir as finalidades informadas ou as obrigações legais aplicáveis, e eliminadas ou anonimizadas quando não forem mais necessárias, observadas as hipóteses legais de conservação.</p>
+<p><strong>Antes de publicar:</strong> defina e informe os períodos efetivos de retenção conforme os dados que o bot realmente armazena.</p>
+<h2>6. Segurança</h2>
+<p>São recomendadas medidas técnicas e organizacionais adequadas para proteger as informações contra acesso não autorizado, perda, alteração, divulgação ou destruição indevida. Nenhum sistema pode ter sua segurança garantida de forma absoluta. Em caso de incidente, serão adotadas as medidas cabíveis conforme as circunstâncias e as obrigações legais aplicáveis.</p>
+<h2>7. Direitos dos titulares</h2>
+<p>Quando a LGPD ou outra legislação aplicável conceder esses direitos, os titulares poderão solicitar, conforme o caso, confirmação da existência de tratamento, acesso aos dados pessoais, correção de dados incompletos ou inexatos, informações sobre tratamento e compartilhamento, eliminação ou anonimização quando legalmente cabível e revogação do consentimento quando essa for a base legal utilizada.</p>
+<p>Para exercer seus direitos, entre em contato pelo canal indicado abaixo. Poderão ser solicitadas informações razoáveis para verificar a identidade do solicitante e localizar os dados pertinentes.</p>
+<h2>8. Solicitações de exclusão de dados</h2>
+<p>Para solicitar a exclusão de informações relacionadas à utilização do Feneco, entre em contato com o responsável pelo bot. A solicitação será analisada e atendida conforme a legislação aplicável, considerando a possibilidade de localizar os dados e eventuais obrigações legais de conservação. A remoção do Feneco de um servidor ou o encerramento da utilização não garante, por si só, a eliminação automática de todos os registros eventualmente armazenados.</p>
+<h2>9. Crianças e adolescentes</h2>
+<p>O Feneco não deve ser utilizado em desacordo com os requisitos de idade e as regras aplicáveis do Discord. O tratamento de dados de crianças e adolescentes deverá observar as exigências legais pertinentes, inclusive as regras de proteção aplicáveis a esses titulares.</p>
+<h2>10. Alterações desta política</h2>
+<p>Esta Política de Privacidade poderá ser atualizada para refletir mudanças nas funcionalidades, nos dados processados, nas práticas de armazenamento ou nas exigências legais. A versão atualizada será disponibilizada publicamente neste endereço.</p>
+<h2>11. Contato e solicitações</h2>
+<p>Para dúvidas sobre privacidade, acesso, correção ou exclusão de dados, entre em contato com o responsável pelo Feneco:</p>
+<p><strong>Contato:</strong> <span style="color:#fca5a5">[INSIRA SEU E-MAIL OU CANAL OFICIAL DE SUPORTE]</span></p>
+<h2>12. Plataforma Discord</h2>
+<p>O Feneco é um bot que funciona na plataforma Discord. A utilização do Discord também está sujeita aos termos e à política de privacidade da própria plataforma. Esta política se refere ao tratamento de dados associado ao Feneco e não substitui as políticas do Discord.</p>
+</article></div></main>
+
+
+<footer><div class="wrap foot"><span>© 2026 Feneco · Documentação</span><span>Feito para informar com clareza.</span></div></footer>
+</body>
+</html>
